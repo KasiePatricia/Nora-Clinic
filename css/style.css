@@ -4,7 +4,7 @@
     box-sizing: border-box;
   }
 
-  .bg-page {
+  .bg-page, .navbar a:hover, .navbar .active:focus {
     background: #3fbbc0;
     color: #fff;
   }
@@ -13,16 +13,16 @@
     font-family: "Open Sans", sans-serif;
   }
 
-  h1, h2, h3, h4, h5, h6, .navbar a, .navbar a:focus {
+  h1, h2, h3, h4, h5, h6, .navbar a {
     font-family: "Roboto", sans-serif;
   }
 
-  .bd-color, .navbar a:hover, .navbar .active, .navbar .active:focus {
+  .bd-color {
     color: #3fbbc0;
   }
 
-  @media (max-width: 992px) {
+  /* @media (max-width: 992px) {
     .header {
         padding: 5px 0;
     }
-  }
+  } */
